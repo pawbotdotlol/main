@@ -77,11 +77,11 @@ local Games = {
         Bullet_Name = "BULLET_RAYS",
     },
     [18591761247] = {
-        Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop")
-        Remote = ReplicatedStorage:FindFirstChild("MainEvent")
+        Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
+        Remote = ReplicatedStorage:FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
-        Bullet_Name = "BULLET_RAYS"
+        Bullet_Name = "BULLET_RAYS",
     },
 }
 
