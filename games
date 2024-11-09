@@ -96,6 +96,14 @@ local Games = {
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
+    },
+    [103432853744897] = {
+        Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
+        Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
+        Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
+        Argument = "UpdateMousePos",
+        Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
+        Bullet_Name = "Bullet",
     }
 }
 
