@@ -23,7 +23,7 @@ local Games = {
     [9825515356] = {
         Shop = Workspace:FindFirstChild("FFA_MAP") and Workspace.FFA_MAP:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
-        Argument = "MousePosUpdate",
+        Argument = "UpdateMousePos",
         Bullet_Name = "BULLET_RAYS",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
     },
@@ -77,6 +77,13 @@ local Games = {
         Bullet_Name = "BULLET_RAYS",
     },
     [18591761247] = {
+        Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
+        Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
+        Argument = "UpdateMousePos",
+        Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
+        Bullet_Name = "BULLET_RAYS",
+    },
+    [76565633209271] = {
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
