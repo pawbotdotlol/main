@@ -92,11 +92,17 @@ local Games = {
     },
     [103539521748777] = {
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
-        Remote = game:GetService("ReplicatedStorage"):FindFirstChild("Packages"):FindFirstChild("Knit"):FindFirstChild("Services"):FindFirstChild("ToolService"):FindFirstChild("RE"):FindFirstChild("UpdateAim"),
+        Remote = game:GetService("ReplicatedStorage"):FindFirstChild("Packages")
+                  and game:GetService("ReplicatedStorage").Packages:FindFirstChild("Knit")
+                  and game:GetService("ReplicatedStorage").Packages.Knit:FindFirstChild("Services")
+                  and game:GetService("ReplicatedStorage").Packages.Knit.Services:FindFirstChild("ToolService")
+                  and game:GetService("ReplicatedStorage").Packages.Knit.Services.ToolService:FindFirstChild("RE")
+                  and game:GetService("ReplicatedStorage").Packages.Knit.Services.ToolService.RE:FindFirstChild("UpdateAim")
+                  or nil,
         Argument = nil,
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "Tracer",
-    },
+    }, 
 }
 
 return Games
