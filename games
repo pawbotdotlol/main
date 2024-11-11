@@ -1,96 +1,96 @@
 local Games = {
-    [119128177092917] = {
+    [80928704543944] = { -- Hood Craft
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [84366677940861] = {
+    [84366677940861] = { -- Da Uphill
         Shop = Workspace:FindFirstChild("MAP") and Workspace.MAP:FindFirstChild("BuyPads"),
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MAINEVENT"),
         Argument = "MOUSE",
         Bullet_Path = Workspace,
         Bullet_Name = "Part",
     },
-    [15186202290] = {
+    [15186202290] = { -- Da Strike
         Shop = Workspace:FindFirstChild("MAP") and Workspace.MAP:FindFirstChild("Pads"),
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MAINEVENT"),
         Argument = "MOUSE",
         Bullet_Path = Workspace,
         Bullet_Name = "Part",
     },
-    [138593053726293] = {
+    [138593053726293] = { -- New Hood Backup
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
     },
-    [17809101348] = {
+    [17809101348] = { -- New Hood
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
     },
-    [16747005904] = {
+    [16747005904] = { -- Dah Aim Trainer
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [119694319218585] = {
+    [120898611669702] = { -- HOOD Z
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
     },
-    [16205708897] = {
+    [16205708897] = { -- Da Projects
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
     },
-    [78558821760261] = {
+    [78558821760261] = { -- Da Hood Aim Trainer
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [113557336821197] = {
+    [125959456157801] = { -- OG-DAHOOD
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "lenakistoptouchingme",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [18591761247] = {
+    [18591761247] = { -- Adopt Hood
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [76565633209271] = {
+    [76565633209271] = { -- OG Da Hood
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop"),
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "BULLET_RAYS",
     },
-    [71661325156457] = {
+    [71661325156457] = { -- Hood Spirit FFA
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("MainEvent"),
         Argument = "UpdateMousePos",
         Bullet_Path = Workspace:FindFirstChild("Ignored") or Workspace,
         Bullet_Name = "bulletray",
     },
-    [103539521748777] = {
+    [103539521748777] = { -- FLAME HOOD
         Shop = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild("Shop") or nil,
         Remote = game:GetService("ReplicatedStorage"):FindFirstChild("Packages")
                   and game:GetService("ReplicatedStorage").Packages:FindFirstChild("Knit")
